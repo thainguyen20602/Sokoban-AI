@@ -10,8 +10,8 @@ class Level:
     def load(self, level):
         self.structure = []
         max_width = 0
-        if level==5:
-            level+=1
+        # if level==5:
+        #     level+=1
         with open("assets/sokobanLevels/test" + str(level) + ".txt") as level_file:
             rows = level_file.read().split('\n')
 

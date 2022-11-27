@@ -6,7 +6,7 @@ from game import *
 class Menu:
     def __init__(self):
         self.image = pygame.image.load('assets/images/menu.png').convert_alpha()
-        self.new_game_txt = "New Game"
+        self.new_game_txt = "New Game"  
         self.load_game_txt = "Continue"
         self.quit_game_txt = "Quit"
         self.font = pygame.font.Font('assets/fonts/FreeSansBold.ttf', 30)
